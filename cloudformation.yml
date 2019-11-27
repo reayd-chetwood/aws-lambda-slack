@@ -5,8 +5,12 @@ Description: |
 
 Parameters:
   Environment:
-    Description: "The LDM environment e.g. dev, preprod, apac, emea, na"
+    Description: "The environment e.g. dev, test, prod"
     Type: String
+    AllowedValues:
+      - dev
+      - test
+      - prod
   SlackChannel:
     Type: String
     Description: The Slack Channel to send notifications to

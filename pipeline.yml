@@ -238,7 +238,7 @@ Resources:
                       - '" }'
                 RoleArn: !GetAtt CodePipelineCFNRole.Arn
                 StackName: !Ref StackName
-                TemplatePath: Source::lambda.yml
+                TemplatePath: Source::cloudformation.yml
               RunOrder: '1'
         - Name: Build
           Actions:
@@ -330,7 +330,7 @@ Resources:
                       - '" }'
                 RoleArn: !GetAtt CodePipelineCFNRole.Arn
                 StackName: !Ref StackName
-                TemplatePath: Source::lambda.yml
+                TemplatePath: Source::cloudformation.yml
               RunOrder: '1'
         - Name: Build
           Actions:
