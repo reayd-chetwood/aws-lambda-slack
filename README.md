@@ -1,4 +1,4 @@
-# AWS Lambda Slack
+# Lambda Slack
 
 Lambda function to send AWS CloudWatch messages to a Slack Channel. Could be modified to send other messages or alerts.
 
